@@ -585,6 +585,280 @@
     padding-left: 40px;
 }
 
+.form-column .form-arrow {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 53px;
+    top: 0;
+    transform: translate(-40%,100%) rotate(45deg);
+    background-color: #FFF;
+    border: 1px solid #c6c9ca;
+    z-index: 3;
+}
+
+.form-arrow-overlay {
+    width: 20px;
+    height: 48px;
+    position: absolute;
+    left: 64px;
+    top: -29px;
+    background-color: #FFF;
+    z-index: 4;
+    transform: translate(-40%,100%);
+}
+
+.form-content{
+    background: #FFF;
+    border: 1px solid #c6c9ca;
+    height: 400px;
+    margin-left: 40px;
+    overflow: hidden;
+    position: relative;    
+}
+
+.form-holder{
+    height: 100%;
+    position: relative;
+    padding: 10px 50px 36px;
+    z-index: 2;
+    background-color: #FFF;
+}
+
+.form-inner-folder{
+    opacity: 1;
+}
+
+.form-header{
+    margin-top: -25px;
+}
+
+.form-title-hpe {
+    color: #000;
+    font-family: 'Metric Semibold';
+    font-size: 40px;
+    line-height: 1.075em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.form-text-hpe{
+    color: #000;
+    font-family: 'Metric Light';
+    font-size: 22px;
+    font-style: normal;
+    line-height: 1.18181818em;
+}
+
+.formularyhpe {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group-input-text{
+    border: 1px solid #C6C9CA;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin-bottom: 2px;
+    padding: 32px 0 5px;
+    position: relative;
+}
+
+.labels-hpe{
+    font-size: 18px;
+    line-height: 1.22222222em;
+    font-weight: 400;
+    font-family: 'Metric Light';
+    color: #707070;
+    display: inline;
+    opacity: 0;
+}
+
+.label-country{
+    z-index: 0;
+    top: auto;
+    bottom: 0;
+    opacity: 1;
+    transition: none;
+    font-size: 18px;
+    line-height: 1.22222222em;
+    font-family: 'Metric Light';
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1.22222222em;
+    font-weight: 400;
+    font-family: 'Metric Light';
+    color: #707070;
+    display: inline;
+    
+    
+}
+
+.icon-arrow-bottom{
+    font-size: 30px;
+    height: 22px;
+   
+}
+
+.select-wrapper::before{
+    color: #01A982;
+    content: "\f11d";
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    right: -10px;
+    text-align: center;
+    top: 29px;
+    z-index: 1;
+    width: 42px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.select-form{
+    opacity: 0;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    background: 0 0;
+    border: none;
+    display: block;
+    margin: 0;
+    outline: 0;
+    padding: 0 25px 0 0;
+    width: 100%;
+    -webkit-appearance: none;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.22222222em;
+    font-family: 'Metric Light';
+    cursor: pointer;
+}
+
+.input-text-hpe{
+    font-size: 18px;
+    line-height: 1.22222222em;
+    color: #333;
+    background: 0 0;
+    border: none;
+    display: block;
+    height: 22px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Metric Light';
+}
+
+.validate-field{
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    opacity: 0;
+    display: block;
+    transition: 250ms ease-in;
+    font-size: 12px;
+    line-height: 1.33333333em;
+    font-family: 'Metric Light';
+    font-weight: 400;
+    color: #D93A09;
+    margin: 0;
+}
+
+.opt-in{
+    margin-top: 24px;
+    
+}
+
+
+.checkboxes-group-label{
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #707070;
+    font-family: 'Metric Light';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.checkboxes-group-wrapper{
+    display: flex;
+}
+
+.form.group{
+    margin-bottom: 2px;
+}
+
+.group-input-checkbox{
+    margin-right: 15px;
+    margin-top: 0;
+    position: relative;
+}
+
+.input-checkbox{
+    position: absolute;
+}
+
+.checkbox-text-label{
+    font-size: 18px;
+    line-height: 1.22222222em;
+    font-weight: 400;
+    font-family: 'Metric Light';
+    color: #707070;
+    display: inline;
+}
+
+.input-helper{
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border: 2px solid #01A982;
+    background-color: #FFF;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.group-input-checkbox .input:checked+.input-helper {
+    background-color: #01A982;
+}
+
+.label-wrapper{
+    padding-left: 30px;
+}
+
+.buttons-section{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.submit-button-form{
+    text-transform: none;
+    color: #FFF;
+    margin-right: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 1.1em;
+    min-height: 44px;
+    min-width: 250px;
+    max-width: 400px;
+    background: #01A982;
+    outline: #01A982 solid 0;
+    cursor: pointer;
+    font-family: 'Metric Semibold';
+    text-decoration:none;
+}
+
+
+
+
 
 
 

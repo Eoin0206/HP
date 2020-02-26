@@ -439,20 +439,27 @@
                         </div>
                         <form action="" class="formularyhpe">
                         <div class=" form-group-input-text">
-                            <label for="1~aid_p_first_name"> First Name </label>
+                            <label for="1~aid_p_first_name" class="labels-hpe"> First Name </label>
                             <input class="input-text-hpe" id="1~aid_p_first_name" name="1~aid_p_first_name" type="text" aria-required="true" data-msg-required="Please enter your first name" data-rule-required="true" aria-labelledby="1~aid_p_first_name-error" placeholder="First Name">
+                            <div class="validate-field" id="1~aid_p_first_name-error" aria-hidden="true" aria-label="Please enter your first name"> 
+                                <span id="1~aid_p_first_name-error" class="error-message">Please enter your first name</span>
+                            </div>
                         <div class=" form-group-input-text">
-                            <label for="1~aid_p_last_name"> Last Name </label>
+                            <label for="1~aid_p_last_name" class="labels-hpe"> Last Name </label>
                             <input class="input-text-hpe" id="1~aid_p_last_name" name="1~aid_p_last_name" type="text" aria-required="true" data-msg-required="Please enter your last name" data-rule-required="true" aria-labelledby="1~aid_p_last_name-error" placeholder="Last Name" aria-describedby="1~aid_p_last_name-error" aria-invalid="false">    
+                            <div class="validate-field" id="1~aid_p_last_name-error" aria-hidden="true" aria-label="Please enter your last name"> 
+                                <span id="1~aid_p_last_name-error" class="error-message">Please enter your last name</span>
+                            </div>
                         </div>
                         <div class="form-group-input-text">
-                            <label for="1~aid_p_email_address"> Business Email </label>
+                            <label for="1~aid_p_email_address" class="labels-hpe"> Business Email </label>
                             <input class="input-text-hpe" id="1~aid_p_email_address" name="1~aid_p_email_address" type="email" aria-required="true" data-rule-required="true" data-msg-required="Please enter a valid business email." data-rule-email="true" data-msg-invalid="Please enter a valid email." placeholder="Business Email" aria-labelledby="1~aid_p_email_address-error" data-rule-strikeiron-email-val="true">
+                            <div class="validate-field" id="1~aid_p_email_address-error" aria-hidden="true" aria-label="Please enter a valid business email.">Please enter a valid business email.</div>
                         </div>
                         <div class=" form-group-input-text"> 
-                            <label for="1~aid_p_country_fk"> Country/Region </label>
-                            <div class="icon-arrow-bottom"> 
-                                <select class="select-form" id="1~aid_p_country_fk" name="1~aid_p_country_FK" aria-required="true" data-rule-required="true" data-msg-required="Please enter a valid country/region." aria-labelledby="1~aid_p_country_fk-error" data-default-text="Country/Region" selected="selectone"> 
+                            <label for="1~aid_p_country_fk" class="label-country"> Country/Region </label>
+                            <div class="select-wrapper icon-arrow-bottom"> 
+                                <select class="select-form" id="1~aid_p_country_fk" name="1~aid_p_country_FK" aria-required="true" data-rule-required="true" data-msg-required="Please enter a valid country/region." aria-labelledby="1~aid_p_country_fk-error" placeholder="Country/Region" selected="selectone"> 
                                     <option value="" selected="" disabled="disabled"> Please Select </option> 
                                     <option value="CA" data-english-name="Canada"> Canada </option> 
                                     <option value="DE" data-english-name="Germany"> Germany </option> 
@@ -701,17 +708,22 @@
                                     </select>
                                     <input name="eloquaCountryCode" class="eloquaCountryCode" type="hidden" value="" data-di-id="di-id-f518154b-2f808b62">
                                     <input name="eloquaFullCountryName" class="eloquaFullCountryName" type="hidden" value="" data-di-id="di-id-6b6caccb-ba68b061"> 
+                                    <div class="validate-field" id="1~aid_p_country_fk-error" aria-hidden="true" aria-label="Please enter a valid country/region."> </div>
                                 </div>
                         </div>
                         <div class="form-group-input-text"> 
-                            <label for="1~aid_p_company_name"> Company </label> 
-                            <input class="input input-text" id="1~aid_p_company_name" name="1~aid_p_company_name" type="text" aria-required="true" data-msg-required="Please enter your company name." data-rule-required="true" aria-labelledby="1~aid_p_company_name-error" data-autocomplete-loader-label="Loading matches..." placeholder="Company"> 
+                            <label for="1~aid_p_company_name" class="labels-hpe"> Company </label> 
+                            <input class="input-text-hpe" id="1~aid_p_company_name" name="1~aid_p_company_name" type="text" aria-required="true" data-msg-required="Please enter your company name." data-rule-required="true" aria-labelledby="1~aid_p_company_name-error" data-autocomplete-loader-label="Loading matches..." placeholder="Company"> 
                             <div class="validate-field" id="1~aid_p_company_name-error" aria-hidden="true" aria-label="Please enter your company name."> </div> 
+                            <div class="validate-field" id="1~aid_p_company_name-error" aria-hidden="true" aria-label="Please enter your company name."> 
+                                <span id="1~aid_p_company_name-error" class="error-message">Please enter your company name.</span>
+                            </div>
                         </div>
                         <div class="form-group-input-text"> 
-                            <label for="1~aid_p_telephone"> Business phone </label> 
-                            <input class="input input-text input-tel body-copy-small" id="1~aid_p_telephone" name="1~aid_p_telephone" type="tel" aria-required="true" data-rule-required="true" data-msg-required="Please enter a valid phone number." data-msg-minlength="The minimum amount of characters is 7" data-rule-minlength="7" data-rule-phone-val="true" data-msg-invalid="Please enter a valid phone number." placeholder="Business phone" aria-labelledby="1~aid_p_telephone-error" data-rule-strikeiron-phone-val="true"> 
+                            <label for="1~aid_p_telephone" class="labels-hpe"> Business phone </label> 
+                            <input class="input-text-hpe" id="1~aid_p_telephone" name="1~aid_p_telephone" type="tel" aria-required="true" data-rule-required="true" data-msg-required="Please enter a valid phone number." data-msg-minlength="The minimum amount of characters is 7" data-rule-minlength="7" data-rule-phone-val="true" data-msg-invalid="Please enter a valid phone number." placeholder="Business phone" aria-labelledby="1~aid_p_telephone-error" data-rule-strikeiron-phone-val="true"> 
                              <span class="plus-icon">+</span> 
+                             <div class="validate-field" id="1~aid_p_telephone-error" aria-hidden="true" aria-label="Please enter a valid phone number."> </div>
                         </div>
                         <div class="row opt-in"> 
                             <div class="col-xs-12 form-wrapper "> 
@@ -725,7 +737,6 @@
                                         <div class="label-wrapper"> 
                                             <label class="checkbox-text-label" for="1~aid_o_email"> 
                                                 <span class="short">Email</span> 
-                                                <span class="long">Yes, please email me</span> 
                                             </label> 
                                         </div> 
                                     </div>
@@ -735,7 +746,6 @@
                                         <div class="label-wrapper"> 
                                             <label class="checkbox-text-label" for="1~aid_o_telephone"> 
                                                 <span class="short">Phone</span> 
-                                                <span class="long">Yes, please call me</span> 
                                             </label> 
                                         </div> 
                                     </div>
@@ -745,9 +755,6 @@
                         <div class="buttons-section"> 
                             <button type="submit" class="submit-button-form"> 
                                 <span class="button-text">Submit</span> 
-                                <svg class="grommet-spinner"> 
-                                    <circle cx="24" cy="24" r="21" stroke="#979797" stroke-width="6" fill="none"></circle> 
-                                </svg> 
                             </button> 
                         </div>
                         <div class="hpe-form-disclaimer"> 
