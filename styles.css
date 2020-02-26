@@ -1,0 +1,591 @@
+@font-face {
+    font-family: "Metric Light";
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Light.eot");
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Light.woff") format("woff");
+    
+}
+
+@font-face {
+
+    font-family: "MetricHPE Black";
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Black.eot");
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Black.woff") format("woff");
+
+}
+
+@font-face {
+
+    font-family: "Metric SemiBold";
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Semibold.eot");
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Semibold.woff") format("woff");
+
+}
+
+@font-face {
+
+    font-family: "Simple Regular";
+    src: url("./fonts/HPESimpleWeb/HPESimpleWeb-Regular.eot");
+    src: url("./fonts/HPESimpleWeb/HPESimpleWeb-Regular.woff") format("woff");
+
+}
+
+
+
+.hero {
+    background-image: url(./images/back1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;   
+    background-position: center;
+   
+    
+}
+
+.hero-text-content {
+    padding: 30vh 0 0 25vh;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+}
+
+.title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    position: relative;
+    top: 50px;
+    font-family:'MetricHPE Black';
+}
+
+.container-desc{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    position: relative;
+    margin-top: 50px;
+    
+    
+}
+
+
+
+.hero-ctas-content {
+    padding-top: 5px;
+     
+}
+
+.hero-ctas-content a {
+    display: inline-block;
+}
+
+.hero-video {
+    margin-top: 25px;
+    
+}
+
+.introduccion-title {
+    margin-bottom: 36px;
+    font-size: 40px;
+    line-height: 1em;
+    font-family: 'MetricHPE Black';
+    
+}
+
+.introduccion-title::after {
+    position: absolute;
+    background: rgb(42, 210, 201);
+    width: 60px;
+    content: "";
+    left: 50%;
+    bottom: -25%;
+    height: 6px;
+    margin-left: -30px;
+}
+
+.description-hp-en {
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+
+
+.landing-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 70px;
+    
+}
+
+.landing-introduccion {
+    text-align: center;
+    padding-top: 10px;
+   
+    
+}
+
+
+.columns-principal {
+    margin-bottom: 60px;
+}
+
+.introduccion-columns {
+    padding-bottom: 5px;
+    font-size: 28px;
+    text-align: left;
+    line-height: 1em;
+    font-family: 'MetricHPE Black';
+    font-style: normal;
+    font-weight: bold;
+    padding: 5vh 0 0 0vh;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+}
+
+.columns-body {
+    margin-top: -35px;
+}
+
+.columns-parag {
+    
+    margin-top: -19px;
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.15em;
+    font-style: normal;
+    padding: 0vh 5px 0px 90vh;
+    
+   
+}
+
+.ul-dates {
+    display: block;
+    list-style-type: disc;
+    font-size: 18px;
+    font-family: 'Metric Light';
+    text-align: left;
+    line-height: 1.22222222em;
+    word-break: break-word;
+    white-space: inherit;
+    -webkit-tap-highlight-color: transparent;
+    padding-left: 550px;
+}
+
+.li-columns, li {
+    list-style-type:square;
+    text-align: left;
+    
+}
+
+
+.numbers{
+    background-color:#F6F6F6;
+    text-align: center;
+    padding:60px;
+}
+
+
+.fluid-number {
+    color: #000;
+    font-size: 76px;
+    line-height: 76px;
+    display: inline;
+    font-family: 'Simple Regular';
+    text-align: center;
+    
+    
+    
+}
+
+.fluid-text{
+    font-family: 'Metric Semibold';
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    
+}
+
+
+
+.numeric-callout__number{
+    color: #000;
+    font-size: 76px;
+    line-height: 76px;
+    display: inline;
+    font-family: 'Simple Regular';
+    text-align: center;
+   
+    
+}
+
+.numeric-callout__number2{
+    color: #000;
+    font-size: 76px;
+    line-height: 76px;
+    display: inline;
+    font-family: 'Simple Regular';
+    text-align: center;
+    
+}
+
+.numeric-callout__symbol{
+    color: #01A982;
+    font-size: 76px;
+    line-height: 76px;
+    display: inline;
+    font-family: 'Simple Regular';
+    text-align: center;
+}
+
+.primary-cta {
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Metric Light';
+    color: #333;
+    
+}
+
+.see-more-hpe {
+    background-color: #F6F6F6;
+    color: black ;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.125em;
+    max-width: 400px;
+    min-height: 40px;
+    min-width: 200px;
+    padding: 10px 30px;
+    border: 2px solid #01A982;
+    outline: #01A982 solid 0;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Metric Semibold';
+    text-align: center;
+    text-decoration: none;
+}
+
+.HPE-WINS{
+  background-image: url(./images/back2.jpg);
+  height: 400px;
+  background-position: left;
+  padding-top: 50px;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+  padding: 36px;
+    
+}
+
+.container-hpe{
+    padding-top: 30px;
+}
+
+.win-ext-link {
+    color: #fff;
+    font-size: 34px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 1em;
+    font-family: 'MetricHPE Black';
+
+
+}
+
+.text-win::after {
+    
+    background: rgb(42, 210, 201);
+    content: "";
+    height: 6px;
+    margin-left: -436px;
+    margin-top: 40px;
+    position: absolute;
+    width: 60px;
+    
+}
+
+.parraf-hpe   {
+    padding-top: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 30px;
+    
+    
+}
+
+.text-change {
+    
+    font-size: 18px;
+    line-height: 1.22222222em;
+    color: #FFF;
+    font-family: 'Metric Light';
+}
+
+.link-wrapper {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.hpe-arrow-link {
+     font-size: 16px;
+     line-height: 20px;
+     color: #FFF;
+     font-family: 'Metric SemiBold';
+     
+
+
+}
+
+.hf-centered {
+    padding-top:36px;
+}
+
+.tagline {
+    font-size: 16px;
+    line-height: 1.125em;
+    font-family: 'Metric Light',Arial,sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    padding-left: 25px;
+
+}
+
+.tagaft::after{
+    position: absolute;
+    background: #FF8D6D;
+    width: 60px;
+    content: "";
+    left: 50%;
+    
+    height: 6px;
+    margin-left: -160px;
+    margin-top: -30px;
+}
+
+.title-tag {
+    margin-top: 18px;
+    padding-left: 25px;
+    font-size: 28px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'MetricHPE Black',Arial,sans-serif;
+    color: #000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    visibility: visible;
+    
+
+}
+
+.body-desc {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    line-height: 1.22222222em;
+    font-family: 'Metric Light',Arial,sans-serif;
+    font-style: normal;
+    color: #000;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+.link-body {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #01A982;
+    transition: all .2s ease;
+    font-family: 'Metric Light',Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.22222222em;
+    word-break: break-word;
+    white-space: inherit;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.container-form{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.carrusel-container {
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.carousel-control {
+    background: none;
+    color:black;
+
+}
+
+
+.carousel-control.right {
+    margin-right: -37px;
+    background: none;
+
+}
+
+.carousel-control.left {
+    margin-left: -37px;
+    background: none;
+}
+
+.card-title {
+    margin-top: -.29111111em;
+    margin-bottom: calc(15px - .29111111111111115em);
+    padding-top: 30px;
+}
+
+.text-item {
+    padding-left: 0;
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.1875em;
+    color: #01A982;
+    font-family: 'Metric Semibold',Arial,sans-serif;
+
+}
+
+.hp-item > ::before, ::after {
+    font-size: 20px;
+}
+
+
+
+.form-header {
+    margin-top: 20px;
+    padding-right: 36px;
+    padding-left: 36px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    background-color: #FFF;
+    font-size: 16px;
+    line-height: 20px;
+    border: 0;
+    padding: 17px 20px;
+
+}
+
+.form.title {
+    font-family: 'Metric Semibold';
+    color: #000;
+}
+
+/* Formulary */ 
+
+.formulary-greenlake{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+}
+
+.col-xl-7 {
+    width: 58.33333333%;
+}
+
+.preview-column {
+    padding-right: 70px;
+}
+
+.title-started-hpe {
+    font-family: 'MetricHPE Black';
+    font-size: 50px;
+    line-height: 1em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    padding-bottom: 28px;
+    padding-left: 30px;
+    position: relative;
+    
+    
+}
+
+.title-started-hpe::after {
+    background: rgb(42, 210, 201);
+    content: "";
+    height: 6px;
+    margin-left: -783px;
+    margin-top: 62px;
+    position: absolute;
+    width: 60px;
+}
+
+.overview-content{
+    font-family: 'Metric Light';
+    font-size: 22px;
+    font-style: normal;
+    line-height: 1.18181818em;
+    padding-left: 36px;
+}
+
+.img-form {
+    display: flex;
+}
+
+.img-left{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 40%;
+}
+
+.image-container-left,.image-container-right{
+    background-size: cover;
+    display: block;
+    margin-top: 28px;
+    position: relative;
+    width: 100%;
+    
+}
+
+.logo-hpe-form{
+    border: 8px solid #01A982;
+    border-color:#01A982;
+    height: 65px;
+    margin-top: 30px;
+    width: 65px;
+    margin-left: 5px;
+}
+
+.img-right {
+    width: 60%;
+    padding-left: 40px;
+}
+
+
+
+
+
