@@ -239,6 +239,8 @@
     position: relative;
     height: 105px;
     overflow: hidden;
+    display: flex;
+    margin-top: -86px;
 }
 
 .hf-menu-right {
@@ -276,6 +278,28 @@
     vertical-align: baseline;
     font-family: 'Metric Light';
     color: black;
+}
+
+.hf-menu-fixed {
+    flex: 0 0 auto;
+    width: auto;
+    display: flex;
+    margin-top: -86px;
+}
+
+.hf-menu {
+    width: auto;
+}
+
+.hf-md-visible {
+    padding: 0 12px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 85px;
+    margin-bottom: 20px;
+    text-align: center;
+    
 }
 
 /* Header */ 
