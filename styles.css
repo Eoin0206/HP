@@ -29,7 +29,256 @@
 
 }
 
+@font-face {
 
+    font-family: "Metric Medium";
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Medium.eot");
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Medium.woff") format("woff");
+
+}
+
+@font-face {
+
+    font-family: "Metric Regular";
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Regular.eot");
+    src: url("./fonts/HPEMetricWeb/MetricHPE-Web-Regular.woff") format("woff");
+
+}
+
+
+/* Header */
+.hpe-header{
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    z-index: auto;
+}
+
+.header-black{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    min-width: 320px;
+}
+
+.nav-first-hf{
+    height: 30px;
+    background: #000;
+    color: #969696;
+}
+
+.hf-centered-first{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1800px;
+    padding: 0 100px;
+}
+
+.dynamic-lenguage{
+    flex: 0 0 auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lenguage-li{
+    position: relative;
+    top: -1px;
+    line-height: 14px;
+    margin: 8px 0;
+    list-style-type: none;
+    font-family: 'Metric Light';
+}
+
+.hf-utility-link-lenguage {
+    display: block;
+    font-size: 12px;
+    font-family: 'Metric Medium';
+    color: #969696;
+    text-transform: uppercase;
+    padding: 0 16px;
+    white-space: nowrap;
+}
+
+.hf-globe-icon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: -2px;
+    margin-right: 5px;
+    vertical-align: middle;
+    fill: #969696;
+}
+
+.hf-nav-2{
+    display: block;
+    position: relative;
+    height: 85px;
+    z-index: 100;
+    background: #FFF;
+    transition: background .25s ease-out;
+}
+
+.hf-centered-second {
+    padding: 0 80px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1800px;
+}
+
+.hf-logo-menu {
+    min-width: 212px;
+    margin-left: -30px;
+    z-index: 101;
+    position: relative;
+    height: 87px;
+    margin-right: 90px;
+}
+
+.logo-hf {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    height: 100%;
+    padding: 17px 0 14px;
+}
+
+.hf-icon{
+    height: 100%;
+    width: 124px;
+}
+
+.hf-logo-btn {
+    margin-right: 35px;
+    position: relative;
+    display: block;
+    height: 100%;
+    z-index: 2;
+    padding: 1px;
+}
+
+.hf-menu-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 272px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 12px rgba(0,0,0,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .1s linear 0s,visibility 0s linear .1s;
+    padding: 0 30px 27px;
+}
+ 
+
+ .hf-link-container{
+    display: block;
+    position: relative;
+    margin: 0 -30px;
+    z-index: 3;
+    text-decoration: none;
+ }
+
+.hf-link-v3.back-cta {
+    display: flex;
+    flex: 0 1 auto;
+    margin: 0 30px 17px;
+    font-family: 'Metric Semibold';
+    font-size: 17px;
+    line-height: 1.17647059em;
+    color: #01A982;
+}
+
+.hf-link-v3{
+    font-family: 'Metric Regular';
+    color: #000;
+    font-size: 20px;
+    line-height: 1.1em;
+    text-decoration: none;
+}
+
+.hf-list-item {
+    display: block;
+    margin-bottom: 20px;
+}
+.hf-list-item:hover {
+    color:black
+}
+
+.arrow-back{
+    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-width: 20px;
+    margin-right: 5px;
+}
+
+.hf-links-sub {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-chevron-down {
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 9px;
+}
+
+.hf-menu-dynamic {
+    flex: 0 1 100%;
+    position: relative;
+    height: 105px;
+    overflow: hidden;
+}
+
+.hf-menu-right {
+    position: absolute;
+    height: 100%;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+}
+
+.hf-menu-item {
+    padding: 0 12px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 85px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.hf-nav-link {
+    display: inline-block;
+    height: 100%;
+    line-height: 85px;
+    outline-color: #000;
+}
+
+.hf-link-text {
+    font-size: 20px;
+    display: inline;
+    vertical-align: baseline;
+    font-family: 'Metric Light';
+    color: black;
+}
+
+/* Header */ 
 
 .hero {
     background-image: url(./images/back1.jpg);
@@ -98,7 +347,7 @@
     width: 60px;
     content: "";
     left: 50%;
-    bottom: -25%;
+    bottom: 40%;
     height: 6px;
     margin-left: -30px;
 }
@@ -110,11 +359,16 @@
 }
 
 
+.landing-first{
+    padding-top: 150px;
+    max-width: 1800px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 .landing-content {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 70px;
+    margin-left: -15px;
+    margin-right: -15px;
     
 }
 
@@ -125,60 +379,83 @@
     
 }
 
-
-.columns-principal {
-    margin-bottom: 60px;
+/* Columns-Info */ 
+.columns-component{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.introduccion-columns {
-    padding-bottom: 5px;
-    font-size: 28px;
-    text-align: left;
+.container-gutter {
+    max-width: 1800px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.containerall{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.columns-component-col{
+    float: left;
+    width: 33.33333333%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.font-hpe{
+    font-size: 50px;
+    text-transform: uppercase;
     line-height: 1em;
     font-family: 'MetricHPE Black';
-    font-style: normal;
-    font-weight: bold;
-    padding: 5vh 0 0 0vh;
-    position: relative;
-    z-index: 2;
-    opacity: 1;
 }
 
-.columns-body {
-    margin-top: -35px;
+.columns-component-col{
+    float: left;
+    width: 66.66666667%;
 }
 
-.columns-parag {
-    
-    margin-top: -19px;
-    font-size: 19px;
-    text-align: left;
-    line-height: 1.15em;
-    font-style: normal;
-    padding: 0vh 5px 0px 90vh;
-    
-   
+.hpe-text-only-2{
+    max-width: none;
 }
 
-.ul-dates {
-    display: block;
-    list-style-type: disc;
-    font-size: 18px;
+.rich-text-container-2{
+    font-size: 22px;
+    line-height: 1.18181818em;
     font-family: 'Metric Light';
-    text-align: left;
-    line-height: 1.22222222em;
-    word-break: break-word;
-    white-space: inherit;
-    -webkit-tap-highlight-color: transparent;
-    padding-left: 550px;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
 }
 
-.li-columns, li {
-    list-style-type:square;
-    text-align: left;
-    
+.hpe-text-only-2 {
+    max-width: none;
 }
 
+.cont-ul{
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.cont-li{
+    padding-left: 13px;
+    position: relative;
+}
+
+
+/* Columns-Info */ 
 
 .numbers{
     background-color:#F6F6F6;
