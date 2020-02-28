@@ -283,25 +283,44 @@
 .hf-menu-fixed {
     flex: 0 0 auto;
     width: auto;
-    display: flex;
     margin-top: -86px;
 }
 
-.hf-menu {
+.hf-menu-sing {
+    position: absolute;
+    height: 100%;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: auto;
+    height: 100%;
 }
 
-.hf-md-visible {
-    padding: 0 12px;
+.hf-menu-item {
     display: inline-block;
     position: relative;
     vertical-align: top;
     height: 85px;
     margin-bottom: 20px;
     text-align: center;
-    
 }
 
+.hf-icon-lup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hf-link-text-contact {
+    font-size: 20px;
+    display: inline;
+    vertical-align: baseline;
+    font-family: 'Metric Light';
+    color: black;
+}
 /* Header */ 
 
 .hero {
@@ -310,7 +329,7 @@
     height: 100vh;
     background-size: cover;   
     background-position: center;
-   
+   padding-top: 5S0px;
     
 }
 
